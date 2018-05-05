@@ -2,7 +2,7 @@
 @import "mixins.less";
 
 body {
-	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Space Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	overflow-x: hidden;
 }
 
@@ -24,24 +24,24 @@ a.active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Space Mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
-    padding: 0;
-    border: none;
-    border-top: solid 5px;
-    text-align: center;
-    max-width: 250px;
-    margin: 25px auto 30px;
-}
+// hr.star-light,
+// hr.star-primary {
+//     padding: 0;
+//     border: none;
+//     border-top: solid 5px;
+//     text-align: center;
+//     max-width: 250px;
+//     margin: 25px auto 30px;
+// }
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f121";
     font-family: FontAwesome;
     display: inline-block;
     position: relative;
@@ -87,14 +87,22 @@ header {
 	.intro-text {
 		.name {
 			display: block;
-			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-family: "Space Mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 			text-transform: uppercase;
 			font-weight: 700;
 			font-size: 2em;
 		}
 		.skills {
+			display: block;
 			font-size: 1.25em;
 			font-weight: 300;
+		}
+		.intro-contact {
+			font-size: 1.25em;
+			font-weight: 300;
+		}
+		a:link {
+			color:white;
 		}
 	}
 }
@@ -102,8 +110,8 @@ header {
 @media(min-width:768px) {
 	header {
 		.container {
-			padding-top: 200px;
-			padding-bottom: 100px;
+			padding-top: 150px;
+			padding-bottom: 50px;
 		}
 		.intro-text {
 			.name {
@@ -118,7 +126,7 @@ header {
 
 .navbar-custom {
 	background: @theme-primary;
-	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Space Mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	border: none;
@@ -352,7 +360,7 @@ footer {
 
 .btn-outline {
 	color: white;
-	font-size: 20px;
+	font-size: 30px;
 	border: solid 2px white;
 	background: transparent;
 	transition: all 0.3s ease-in-out;
@@ -384,7 +392,7 @@ footer {
 	border: 2px solid white;
 	border-radius: 100%;
 	text-align: center;
-	font-size: 20px;
+	font-size: 30px;
 	line-height: 45px;
 }
 
