@@ -6,8 +6,9 @@
     display: block;
     max-width: 25rem;
     margin-bottom: 15px;
-    min-height: 250px;
-    background-color: $gray-200;
+    min-height: 180px;
+    background-color: $gray-100;
+    border: solid 1px $primary;
     .portfolio-item-caption {
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s;
@@ -20,6 +21,11 @@
       .portfolio-item-caption-content {
         font-size: 1.5rem;
       }
+    }
+    img {
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
     }
   }
   @media (min-width: 576px) {

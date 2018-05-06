@@ -176,7 +176,7 @@ header.masthead h1 {
 }
 
 header.masthead h2 {
-  font-size: 1.0rem;
+  font-size: 1.25rem;
   font-family: 'Space Mono', 'Lato';
 }
 
@@ -194,7 +194,7 @@ header.masthead h2 a:link {
     line-height: 4rem;
   }
   header.masthead h2 {
-    font-size: 1.75em;
+    font-size: 1.25em;
   }
 }
 
@@ -207,8 +207,9 @@ header.masthead h2 a:link {
   display: block;
   max-width: 25rem;
   margin-bottom: 15px;
-  min-height: 250px;
-  background-color: #e9ecef;
+  min-height: 180px;
+  background-color: #f8f9fa;
+  border: solid 1px #274C77;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -225,6 +226,12 @@ header.masthead h2 a:link {
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
+}
+
+.portfolio .portfolio-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 576px) {
