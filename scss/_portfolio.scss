@@ -57,6 +57,11 @@
     h2 {
       font-size: 2rem;
     }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   @media(min-width: 768px) {
     .portfolio-modal-dialog {
