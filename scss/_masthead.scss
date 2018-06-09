@@ -4,11 +4,15 @@ header.masthead {
   h1 {
     font-size: 3rem;
     line-height: 3rem;
+    padding-bottom: 2rem;
   }
   h2 {
     font-size: 1.25rem;
     @include body-font;
     a:link {
+      color: white;
+    }
+    a:visited {
       color: white;
     }
   }

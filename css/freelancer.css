@@ -173,6 +173,7 @@ header.masthead {
 header.masthead h1 {
   font-size: 3rem;
   line-height: 3rem;
+  padding-bottom: 2rem;
 }
 
 header.masthead h2 {
@@ -181,6 +182,10 @@ header.masthead h2 {
 }
 
 header.masthead h2 a:link {
+  color: white;
+}
+
+header.masthead h2 a:visited {
   color: white;
 }
 
@@ -297,6 +302,10 @@ header.masthead h2 a:link {
 }
 
 .copyright a:link {
+  color: #fff;
+}
+
+.copyright a:visited {
   color: #fff;
 }
 
